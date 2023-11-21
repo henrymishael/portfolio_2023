@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 // motion 
 import { motion } from 'framer-motion';
 // variants
-import fadeIn from '@/pages/variants';
+import  fadeIn  from '@/lib/variants';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -23,14 +23,14 @@ const Banner = () => {
           <div className='flex-1 text-center font-secondary lg:text-left'>
             <motion.h1 
             variants={fadeIn('up', 0.3)} initial="hidden" 
-            animate='show'
+            whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='text-[55px] font-bold leading-[0.8] lg:text-[70px]'>
               HENRY <span>MISHAEL</span>
             </motion.h1>
             <motion.div 
             variants={fadeIn('up', 0.3)} initial="hidden" 
-            animate='show'
+            whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}
             className='mb-6 text-[36px]  lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
@@ -50,7 +50,7 @@ const Banner = () => {
             </motion.div>
             <motion.p 
             variants={fadeIn('up', 0.3)} initial="hidden" 
-            animate='show'
+            whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
                 I like to craft solid and scalable frontend products with great user experiences.
@@ -58,7 +58,7 @@ const Banner = () => {
               </motion.p>
               <motion.div 
               variants={fadeIn('up', 0.3)} initial="hidden" 
-              animate='show'
+              whileInView={'show'} 
               viewport={{once: false, amount: 0.7}}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                 <button className='btn  btn-lg'>Contact me</button>
@@ -67,7 +67,7 @@ const Banner = () => {
               {/* socials */}
               <motion.div 
               variants={fadeIn('up', 0.3)} initial="hidden" 
-              animate='show'
+              whileInView={'show'} 
               viewport={{once: false, amount: 0.7}}
               className='cursor-pointer flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
                 <a className='cursor-pointer' href="https://github.com/henrymishael" target="_blank" >
@@ -84,7 +84,7 @@ const Banner = () => {
           {/* image */}
           <motion.div 
           variants={fadeIn('down', 0.5)} initial="hidden" 
-          animate='show'
+          whileInView={'show'} 
           // viewport={{once: false, amount: 0.7}}
           className='lg:flex xsm:hidden  lg:flex-1 max-w-[300px] '>
             <Image

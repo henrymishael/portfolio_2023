@@ -2,7 +2,7 @@ import React from 'react';
 // motion
 import { motion } from 'framer-motion';
 // variants
-import fadeIn from '@/pages/variants';
+import  fadeIn  from '@/lib/variants';
 // images
 import Img1 from '@/public/assets/portfolio-img1.png'
 import Img2 from '@/public/assets/portfolio-img2.png'
@@ -17,7 +17,7 @@ const Work = () => {
           <motion.div 
             variants={fadeIn('right', 0.3 )}
             initial='hidden'
-            animate='show'
+            whileInView={'show'}
             viewport={{ once: false, amount:0.3 }}
           className='flex-1 flex flex-col gap-y-8 mb-10 lg:mb-0'>
             {/* text */}
@@ -53,7 +53,7 @@ const Work = () => {
           <motion.div 
             variants={fadeIn('left', 0.2 )}
             initial='hidden'
-            animate='show'
+            whileInView={'show'}
             viewport={{ once: false, amount:0.3 }}
           className='flex-1 flex flex-col gap-y-[3.2rem] '>
             {/* image */}
