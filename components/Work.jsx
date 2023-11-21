@@ -2,7 +2,7 @@ import React from 'react';
 // motion
 import { motion } from 'framer-motion';
 // variants
-import { fadeIn } from '@/pages/variants';
+import fadeIn from '@/pages/variants';
 // images
 import Img1 from '@/public/assets/portfolio-img1.png'
 import Img2 from '@/public/assets/portfolio-img2.png'

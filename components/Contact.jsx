@@ -2,7 +2,7 @@ import React from 'react';
 // motion
 import { motion } from 'framer-motion';
 // variants
-import { fadeIn } from '@/pages/variants';
+import fadeIn from '@/pages/variants';
 
 const Contact = () => {
   return (

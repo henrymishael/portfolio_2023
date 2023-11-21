@@ -4,7 +4,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 // motion
 import { motion } from 'framer-motion';
 // variants
-import { fadeIn } from '@/pages/variants';
+import fadeIn from '@/pages/variants';
 
 const services = [
   {

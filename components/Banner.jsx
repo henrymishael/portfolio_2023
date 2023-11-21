@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 // motion 
 import { motion } from 'framer-motion';
 // variants
-import { fadeIn } from '@/pages/variants';
+import fadeIn from '@/pages/variants';
 import Image from 'next/image';
 import Link from 'next/link';
 
