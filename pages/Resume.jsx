@@ -21,7 +21,8 @@ function Resume() {
         </div>
       <div className='md:w-[25%] text-left sm:pl-12 xsm:pl-6  flex flex-col gap-2'>
         <div className='flex flex-col gap-2 text-accent md:text-[18px] xsm:text-[14px]'>
-          <h3 className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[40%] xsm:w-[38%] sm:w-[20%]'>portfoliosite</h3>
+          <a href="https://portfolio-2023-nine-theta.vercel.app">
+          <h3 className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[40%] xsm:w-[38%] sm:w-[20%]'>portfoliosite</h3></a>
           <p className='text-[16px] text-black'>Lagos, Nigeria</p>
           <a className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[70%] xsm:w-[70%] sm:w-[35%]' href="mailto:henrymishael.hm@gmail.com">hello@henrymishael.com</a>
         </div>
