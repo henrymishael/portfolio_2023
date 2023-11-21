@@ -46,10 +46,10 @@ function Resume() {
         <div className='sm:px-12 xsm:px-6 flex flex-col justify-center gap-4 border-b-[1px] border-black/40 pb-10'>
           <h1 className='text-left md:text-[80px] xsm:text-[50px] font-bold tracking-wide md:leading-[70px] xsm:leading-[40px] text-accent'>Henry <br /> Mishael.</h1>
           <p className='text-black/70 md:text-[30px] xsm:text-[20px] font-semibold'>FrontEnd Developer and UX Engineer.</p>
-          <p className='font-semibold md:w-[70%] md:text-[20px] xsm:text-[14px] xsm:w-[90%]'> I like to craft solid and scalable frontend products with great user experiences. Highly Skilled at progressive enhancement, design systems & UI Engineering</p>
+          <p className='font-semibold md:w-[70%] md:text-[20px] xsm:text-[14px] xsm:w-[90%]'> I like to craft solid and scalable frontend products with great user experiences. Highly Skilled in design systems & UI Engineering</p>
         </div>
         <div className='sm:px-12 xsm:px-6 flex flex-col gap-6'>
-          <h2 className='text-accent font-bold text-[20px] border-b-[6px] border-yellow-400/60 w-[100px] leading-[9px] '>Education</h2>
+          <h2 className='text-accent font-bold text-[28px] border-b-[6px] border-yellow-400/60 w-[100px] leading-[9px] '>Education</h2>
           <div className='flex flex-col gap-2'>
             <h2 className='font-semibold text-[28px]'>Univelcity, Yaba, Lagos State </h2>
             <em><p className='text-yellow-600'>-FrontEnd Engineer</p></em>
@@ -116,10 +116,23 @@ function Resume() {
                 <li>Allows users to play, pause tracks, and control the volume directly from the websit</li>
               </span>
               <span>
-                <h5>Calculator app</h5>
+                <h5 className='font-semibold text-accent'>Calculator app</h5>
                 <p>A simple calculator app, responsive and efficient</p>
                 <a className='text-yellow-600' href="https://henrymishael.github.io/responsive_calculator/" target="_blank">Link to app</a>
               </span>
+            </div>
+            
+          </div>
+          <div className='flex flex-col gap-y-4'>
+            <h2 className='font-bold text-accent text-[28px] border-b-[6px] border-yellow-400/60 w-[30%] leading-[9px] '>Other Education</h2>
+            <div className='flex flex-col gap-2'>
+            <h2 className='font-semibold text-[28px]'>University Of Benin, Edo State, Nigeria </h2>
+            <em><p className='text-yellow-600'>Bsc Industrial Chemistry - <span className='text-black'>2015 - 2020</span></p></em>
+            <div className='flex flex-col gap-2'>
+            <h2 className='font-semibold text-accent'>Experience</h2>
+            <h5 className='text-accent font-semibold'>Federal Institute of Industrial Research Oshodi</h5>
+            <p>Internship</p>
+          </div>
             </div>
           </div>
         </div>
