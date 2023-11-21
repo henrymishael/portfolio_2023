@@ -13,7 +13,7 @@ const Contact = () => {
           <motion.div 
              variants={fadeIn('right', 0.3 )}
              initial='hidden'
-             whileInView={'show'}
+             animate='show'
              viewport={{ once: false, amount:0.3 }}
             className='flex-1 flex justify-start'>
             <div>
@@ -27,7 +27,7 @@ const Contact = () => {
           <motion.form 
              variants={fadeIn('left', 0.3 )}
              initial='hidden'
-             whileInView={'show'}
+             animate='show'
              viewport={{ once: false, amount:0.3 }}
              className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6  items-start' 
              action="mailto:henrymishael.hm@gmail.com">

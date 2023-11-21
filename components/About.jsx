@@ -21,14 +21,14 @@ const About = () => {
           <motion.div 
           variants={fadeIn('right', 0.3)}
           initial='hidden'
-          whileInView={'show'}
+          animate='show'
           viewport={{ once: false, amount:0.3 }}
           className='flex-1 xsm:hidden md:flex bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'> </motion.div>
             {/* text */}
             <motion.div 
              variants={fadeIn('left', 0.5 )}
              initial='hidden'
-             whileInView={'show'}
+             animate='show'
              viewport={{ once: false, amount:0.3 }}
             className='flex-1'>
               <h2 className='h2 text-accent'>About me</h2>
