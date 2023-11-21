@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 
 function Resume() {
   return (
@@ -7,8 +8,17 @@ function Resume() {
     <Head>
       <title>My Resume - Henry Onyeka</title>
     </Head>
-    <section className='md:p-24 xsm:p-8 '>
-      <div className='flex md:flex-row xsm:flex-col bg-[rgb(243,243,243)] text-slate-500 min-h-screen font-medium text-lg py-24 gap-12'>
+    <section className=' md:p-24 xsm:p-8 '>
+      <div className='relative flex md:flex-row xsm:flex-col bg-[rgb(243,243,243)] text-slate-500 min-h-screen font-medium text-lg py-24 gap-12'>
+        <div className='absolute right-24 top-4 flex flex-row gap-3'>
+          <a href="https://www.linkedin.com/in/henry-mishael-b62b19209" target="_blank">
+          <BsLinkedin/>
+          </a>
+          <a href="https://github.com/henrymishael" target="_blank" >
+          <BsGithub/>
+          </a>
+
+        </div>
       <div className='md:w-[25%] text-left sm:pl-12 xsm:pl-6  flex flex-col gap-2'>
         <div className='flex flex-col gap-2 text-accent md:text-[18px] xsm:text-[14px]'>
           <h3 className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[40%] xsm:w-[38%] sm:w-[20%]'>portfoliosite</h3>
