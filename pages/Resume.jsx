@@ -25,6 +25,7 @@ function Resume() {
           <h3 className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[40%] xsm:w-[38%] sm:w-[20%]'>portfoliosite</h3></a>
           <p className='text-[16px] text-black'>Lagos, Nigeria</p>
           <a className='border-b-[6px] border-yellow-400/60 leading-[9px] md:w-[70%] xsm:w-[70%] sm:w-[35%]' href="mailto:henrymishael.hm@gmail.com">hello@henrymishael.com</a>
+          <a href="tel:+2348115173291">+2348115173291</a>
         </div>
         <div className='flex xsm:flex-row md:flex-col w-full  '>
         <div className='flex flex-col w-[100%]'>
@@ -44,11 +45,22 @@ function Resume() {
         <h3 className=' text-accent font-semibold xsm:text-[14px]  sm:text-[18px] md:text-[24px] mt-6'>Others:</h3>
         <div className='xsm:text-[12px] sm:text-[14px] md:text-[18px]'>
         <li>Ux Engineering</li>
-        <li>Responsive Web Design</li>
+        <li>Responsive/ <br />Mobile Design</li>
         <li>Django</li>
         <li>Postgress</li>
         <li>Firebase</li>
         <li>Python</li>
+        </div>
+        </div>
+        <div className='flex flex-col w-[100%]'>
+        <h3 className=' text-accent font-semibold xsm:text-[14px]  sm:text-[18px] md:text-[24px] mt-6'>Skills:</h3>
+        <div className='xsm:text-[12px] sm:text-[14px] md:text-[18px]'>
+        <li>Git/Version control</li>
+        <li>Problem solving</li>
+        <li>TEsting and debugging</li>
+        <li>web Accessibility</li>
+        <li>Team collaboration</li>
+        <li>Good communication skill</li>
         </div>
         </div>
         </div>
@@ -135,7 +147,7 @@ function Resume() {
             
           </div>
           <div className='flex flex-col gap-y-4'>
-            <h2 className='font-bold text-accent text-[28px] border-b-[6px] border-yellow-400/60 w-[30%] leading-[9px] '>Other Education</h2>
+            <h2 className='font-bold text-accent text-[28px] border-b-[6px] border-yellow-400/60 w-[30%] leading-[30px] '>Other Education</h2>
             <div className='flex flex-col gap-2'>
             <h2 className='font-semibold text-[28px]'>University Of Benin, Edo State, Nigeria </h2>
             <em><p className='text-yellow-600'>Bsc Industrial Chemistry - <span className='text-black'>2015 - 2020</span></p></em>
@@ -143,6 +155,14 @@ function Resume() {
             <h2 className='font-semibold text-accent'>Experience</h2>
             <h5 className='text-accent font-semibold'>Federal Institute of Industrial Research Oshodi</h5>
             <p>Internship</p>
+            <li>Assist researchers in conducting experiments and gathering data.</li>
+            <li>Designing, undertaking and analyzing information from controlled laboratory-based investigations, experiments and trials.</li>    
+            <li>Working as part of a team in a research laboratory.</li>  
+            <li> Setting up laboratory equipment and conducting tests and experiments.</li>
+            <li> ecording and analyzing data.</li>
+            <li>Presenting research analysis to senior research Officers.</li>
+            <li>Researching and writing papers, reports and reviews.</li>
+
           </div>
             </div>
           </div>
