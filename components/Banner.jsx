@@ -26,13 +26,13 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
             className='text-[55px] font-bold leading-[0.8] lg:text-[70px]'>
-              HENRY <span>MISHAEL</span>
+              Henry <span>Mishael</span>
             </motion.h1>
             <motion.div 
             variants={fadeIn('up', 0.3)} initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}
-            className='mb-6 text-[36px]  lg:text-[40px] font-secondary font-semibold uppercase leading-[1]'>
+            className='mb-6 text-[36px]  lg:text-[40px] font-secondary font-semibold  leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation sequence={[
                 'Developer.',
