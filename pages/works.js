@@ -1,3 +1,4 @@
+import React from 'react'
 import food from '@/public/assets/works/logonew.png'
 import cover from '@/public/assets/works/black.png'
 import calc from '@/public/assets/works/icon-512.png'
@@ -25,7 +26,7 @@ import cover1 from '@/public/assets/portfolio-img5.png'
 
 
 
-export const projects = { previousWork : [
+const projects = { previousWork : [
     {
         name:"Food App",
         id: 1,
@@ -108,4 +109,6 @@ export const projects = { previousWork : [
 
 ]
 }
+
+export default projects
 
