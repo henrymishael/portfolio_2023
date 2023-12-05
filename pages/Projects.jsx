@@ -3,7 +3,7 @@ import Head from 'next/head'
 import logo from '@/public/assets/mylogo.svg'
 import Image from 'next/image'
 import projects from './works'
-import Link from 'next/link'
+
 
 
 function Projects() {
@@ -51,4 +51,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects;
