@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import logo from '@/public/assets/mylogo.svg'
 import Image from 'next/image'
-import projects from './works'
+import projects from '../components/works'
 
 
 
