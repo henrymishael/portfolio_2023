@@ -26,9 +26,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
+      primary: 'Syne',
+      secondary: 'Syne',
+      tertiary: 'Syne',
     },
     // container: {
     //   padding: {
