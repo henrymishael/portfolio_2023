@@ -25,7 +25,7 @@ import cover1 from '@/public/assets/portfolio-img5.png'
 
 
 
-const projects = { previousWork : [
+export const projects = { previousWork : [
     {
         name:"Food App",
         id: 1,
@@ -109,4 +109,3 @@ const projects = { previousWork : [
 ]
 }
 
-export default projects
