@@ -32,7 +32,7 @@ const Banner = () => {
             variants={fadeIn('up', 0.3)} initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}
-            className='mb-6 text-[36px]  lg:text-[40px] font-secondary font-semibold  leading-[1]'>
+            className='mb-6 text-[36px] mt-2 lg:text-[40px] font-secondary font-semibold  leading-[1]'>
               <span className='text-white mr-4'>I am a</span>
               <TypeAnimation sequence={[
                 'Developer.',
