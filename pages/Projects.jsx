@@ -33,8 +33,8 @@ function Projects() {
       <div className='flex  flex-wrap gap-8 xsm:justify-center mt-20 lg:justify-normal '>
       
         {projects.previousWork.map((work) => (
-        <a  href={work?.link}>
-        <div key={work?.id} className='xsm:w-[250px] sm:w-[345px] h-[280px] bg-white/40 relative cursor-pointer transition-all ease-in-out duration-500  hover:-translate-y-2 card flex items-center justify-center'>
+        <a key={work?.id}  href={work?.link}>
+        <div  className='xsm:w-[250px] sm:w-[345px] h-[280px] bg-white/40 relative cursor-pointer transition-all ease-in-out duration-500  hover:-translate-y-2 card flex items-center justify-center'>
           
             <Image className='flex items-center mb-12 w-auto h-[40px]' src={work?.image}/>
             <span className='absolute bottom-0 left-0 right-0 bg-white w-[100%] h-[100px] px-10 flex flex-col justify-center'>
