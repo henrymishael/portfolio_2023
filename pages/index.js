@@ -135,7 +135,7 @@ const Home = () => {
     <Head>
       <title>Henry Onyeka: Frontend Developer and UX engineer</title>
     </Head>
-    <div className={`bg-site bg-no-repeat bg-cover overflow-hidden xsm:px-3 sm:px-0 `}>
+    <div className={`bg-site bg-no-repeat bg-cover overflow-hidden xsm:px-3 sm:px-0  max-w-[1500px]`}>
       <Header />
       <Banner />
       <Nav />

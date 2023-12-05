@@ -33,6 +33,7 @@ const Work = () => {
               </Link>
             </div>
             {/* image */}
+            <Link href={`../works/food_app`}>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl h-[260px]  '>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'>
@@ -49,6 +50,7 @@ const Work = () => {
                 <span className='text-3xl text-white'>Apptech</span>
               </div>
             </div>
+            </Link>
           </motion.div>
           <motion.div 
             variants={fadeIn('left', 0.2 )}
