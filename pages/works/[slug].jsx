@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import projects from '../works';
+import projects from '@/components/works';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Image from 'next/image';
