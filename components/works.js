@@ -6,7 +6,8 @@ import piggy from '@/public/assets/works/piggy.png'
 import port from '@/public/assets/works/portfolio.ico'
 import spotify from '@/public/assets/works/spotify.png'
 import tv from '@/public/assets/works/tv.png'
-
+import acme from '@/public/assets/works/Acme.png'
+import AcmeLogo from './Acmelogo'
 
 
 
@@ -74,6 +75,14 @@ const projects = { previousWork : [
         slug: "portfoliov2",
         image: port,
         link:'https://main--genuine-bublanina-013bba.netlify.app',
+        
+    },
+    {
+        name:"Acme",
+        id: 8,
+        slug: "Acme",
+        image: acme,
+        link:'https://acme-rust.vercel.app/',
         
     }
 
