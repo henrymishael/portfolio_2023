@@ -26,7 +26,7 @@ const Work = () => {
               <p className='max-w-sm mb-8'>
               I've built products ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.
               </p>
-              <Link href='./Projects' target='_blank'>
+              <Link href='./Projects'>
               <button className='btn btn-sm'>
                 View all projects
               </button>
