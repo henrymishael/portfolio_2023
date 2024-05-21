@@ -8,6 +8,8 @@ import spotify from "@/public/assets/works/spotify.png";
 import tv from "@/public/assets/works/tv.png";
 import acme from "@/public/assets/works/Acme.png";
 import vespi from "@/public/assets/works/vespi.png";
+import streamtube from "@/public/assets/works/streamtube.ico";
+import linkedin from "@/public/assets/works/linkedin.ico";
 
 const projects = {
   previousWork: [
@@ -80,6 +82,20 @@ const projects = {
       slug: "Wallmart",
       image: "https://links.papareact.com/xsi",
       link: "https://wallmart-clone-murex.vercel.app",
+    },
+    {
+      name: "Stream tube",
+      id: 11,
+      slug: "Streamtube",
+      image: streamtube,
+      link: "https://movie-website-ochre.vercel.app",
+    },
+    {
+      name: "LinkedIn Clone",
+      id: 11,
+      slug: "linkedIn",
+      image: linkedin,
+      link: "https://linkedin-clone-mauve-ten.vercel.app",
     },
   ],
 };
