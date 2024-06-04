@@ -10,6 +10,7 @@ import acme from "@/public/assets/works/Acme.png";
 import vespi from "@/public/assets/works/vespi.png";
 import streamtube from "@/public/assets/works/streamtube.ico";
 import linkedin from "@/public/assets/works/linkedin.ico";
+import apple from "@/public/assets/works/apple_svg.png";
 
 const projects = {
   previousWork: [
@@ -96,6 +97,13 @@ const projects = {
       slug: "linkedIn",
       image: linkedin,
       link: "https://linkedin-clone-mauve-ten.vercel.app",
+    },
+    {
+      name: "Apple IPhone 15 Pro",
+      id: 12,
+      slug: "IPhone15",
+      image: apple,
+      link: "https://apple-iphone15-pro.vercel.app",
     },
   ],
 };

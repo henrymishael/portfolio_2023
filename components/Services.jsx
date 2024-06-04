@@ -46,7 +46,7 @@ const Services = () => {
               I like to craft solid and scalable frontend products with great
               user experiences.
             </h3>
-            <Link href={"/Projects"}>
+            <Link target='_blank' href={"/Projects"}>
               <button className='btn btn-sm'>See my work</button>
             </Link>
           </motion.div>
